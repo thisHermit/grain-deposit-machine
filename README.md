@@ -28,7 +28,7 @@ quality 1 0.9881499
 * Estimate weights using exchange rates
 
 ```bash
-$ ./price.sh
+$ ./price.sh 1
 Weight: 114g
 Price: Rs. 10.26
 ```
