@@ -18,7 +18,7 @@ Setting output format to PNG, quality 0
 Writing PNG image to 'image.png'.
 ```
 
-* Classify the image (Output format quality "id of quality" "confidence in classification")
+* Classify the image (Output format "quality id-of-quality confidence-in-classification")
 
 ```bash
 $ ./quality_check.sh
