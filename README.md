@@ -18,14 +18,14 @@ Setting output format to PNG, quality 0
 Writing PNG image to 'image.png'.
 ```
 
-* Classify the image
+* Classify the image (Output format quality <id of quality> <confidence in classification>)
 
 ```bash
 $ ./quality_check.sh
 quality 1 0.9881499
 ```
 
-* Estimate weights using exchange rates
+* Estimate weights using exchange rates (providing the quality as the parameter)
 
 ```bash
 $ ./price.sh 1
