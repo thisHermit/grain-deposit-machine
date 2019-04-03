@@ -5,7 +5,7 @@ Classify the quality of rice grains by retraining the MobileNetV2 model on a dat
 
 * Capture the image
 ```bash
-$./capture_image.sh
+$ ./capture_image.sh
 --- Opening /dev/video0...
 Trying source module v4l2...
 /dev/video0 opened.
@@ -21,12 +21,14 @@ Writing PNG image to 'image.png'.
 * Classify the image
 
 ```bash
-$./quality_check.sh
+$ ./quality_check.sh
 quality 1 0.9881499
 ```
 
 * Estimate weights using exchange rates
 
 ```bash
-./price.sh
+$ ./price.sh
+Weight: 114g
+Price: Rs. 10.26
 ```
