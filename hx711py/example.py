@@ -58,6 +58,6 @@ hx.reset()
 #hx.tare_B()
 
 val = hx.get_weight(5)
-print "Weight: ", (val / 653)
-print "Price: ", (val / 653) * rate
+print "Weight: ", (val / 653), "g"
+print "Price: Rs. ", (val / 653) * rate
 cleanAndExit()
