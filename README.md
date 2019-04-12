@@ -1,4 +1,5 @@
 # grain-deposit-machine
+A hello world project using raspberry pi 3 b plus and Tensorflow in order to learn Transfer Learning.
 Classify the quality of rice grains by retraining the MobileNetV2 model on a dataset containing three qualities of rice.
 
 ## Running the model
